@@ -1,8 +1,10 @@
 # README for a newly created project.
 
-There are a couple of things you should do first, before you can use all of Git's power:
+There are a couple of things you should do first, before you can use all of
+Git's power:
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
+  * Add a remote to this project: in the Cloud9 IDE command line, you can
+     execute the following commands:
     `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
   * Create new files inside your project
   * Add them to to Git by executing the following command
@@ -12,7 +14,20 @@ There are a couple of things you should do first, before you can use all of Git'
   * Push the commit the remote
     `git push [remote name] master` [Enter]
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
+That's it! If this doesn't work for you, please visit the excellent resources
+from [Github.com](http://help.github.com) and the
+[Pro Git](http://http://progit.org/book/) book.
+If you can't find your answers there, feel free to ask us via Twitter
+(@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC
+(#cloud9ide on freenode).
 
 Happy coding!
+
+OWN COMMENTS:
+Order of commands:
+0. git remote add master git@github.com:sebee/sebee-dot-hu.git
+1. git add [filename]
+2. git commit -am 'comment'
+3. git push master master
+
+The 0. step is only necessary when a new project is created within Cloud9.
