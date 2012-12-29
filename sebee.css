@@ -1,3 +1,11 @@
-#top_menu{
+#top_menu {
     font-size:25px;
 }
+#top_menu li {
+   background: #fff;
+   padding: 3px 8px;
+   display: inline-block;
+   transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   }
