@@ -1,12 +1,15 @@
 #top_menu {
-    font-size:25px;
+  font-size:25px;
 }
 #top_menu li {
-   background: #fff;
-   padding: 3px 8px;
-   display: inline-block;
-   transition: background .25s ease-in-out;
-   -moz-transition: background .25s ease-in-out;
-   -webkit-transition: background .25s ease-in-out;
-   }
-   
+  background: #fff;
+  padding: 3px 8px;
+  display: inline-block;
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out;
+}
+#content {
+  background: #555;
+  padding: 3px 5px
+}
