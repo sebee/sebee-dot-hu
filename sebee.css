@@ -7,6 +7,9 @@
   display: inline-block;
   color: #22f;
 }
+#top_menu a {
+  text-decoration: none;
+}
 #content {
   background: #555;
   padding: 3px 30px 3px 20px;
