@@ -15,6 +15,19 @@
 #top_menu a:hover {color:#22F;}
 #top_menu a:active {color:#55F;}
 
+#top_menu li.highlighted {
+  background: #22F;
+  padding: 3px 8px;
+  display: inline-block;
+  color: #FFF;
+}
+
+#top_menu .highlighted a {text-decoration: none;}
+#top_menu .highlighted a:link {color:#FFF;}
+#top_menu .highlighted a:visited {color:#FFF;}
+#top_menu .highlighted a:hover {color:#FFF;}
+#top_menu .highlighted a:active {color:#FFF;}
+
 .content {
     width: 800px;
 }
