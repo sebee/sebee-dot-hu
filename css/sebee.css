@@ -1,5 +1,6 @@
 #top_menu {
   font-size:25px;
+  margin:0;
 }
 
 #top_menu li {
@@ -36,8 +37,10 @@
   background: #555;
   padding: 3px 30px 3px 20px;
   color: #fff;
+  height: 100%;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #fff url('https://lh5.googleusercontent.com/-U1A4mXD6CNA/UWra1fbTzTI/AAAAAAAApac/kObAj1T6u00/w1094-h685-no/DSC_0044-001.JPG') no-repeat;
 }

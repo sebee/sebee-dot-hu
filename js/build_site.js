@@ -21,7 +21,8 @@ function buildSiteMenu() {
                  {'name': 'code', 'page': 'code', 'id': 'code'},
                  {'name': 'stories', 'page': 'stories', 'id': 'stories'},
                  {'name': 'blogs', 'page': 'blogs', 'id': 'blogs'},
-                 {'name': 'etc...', 'page': 'misc', 'id': 'misc'}];
+                 {'name': 'etc...', 'page': 'misc', 'id': 'misc'},
+                 {'name': 'cv', 'page': 'cv', 'id': 'cv'}];
     for (var i = 0; i < pages.length; i++) {
         var buttonClass = '';
         if(pages[i].page == currentPage) {
