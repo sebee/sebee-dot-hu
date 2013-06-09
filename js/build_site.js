@@ -20,7 +20,7 @@ function buildSiteMenu() {
                  {'name': 'code', 'page': 'code', 'id': 'code'},
                  {'name': 'stories', 'page': 'stories', 'id': 'stories'},
                  {'name': 'blogs', 'page': 'blogs', 'id': 'blogs'},
-                 {'name': 'etc...', 'page': 'etc', 'id': 'etc'}];
+                 {'name': 'etc...', 'page': 'misc', 'id': 'misc'}];
     for (var i = 0; i < pages.length; i++) {
         var menuLink = '<li><a href="' + pages[i].page + '.html" id="' +
                        pages[i].id + '">' + pages[i].name + '</a></li>';
