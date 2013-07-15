@@ -10,6 +10,15 @@ function buildSiteFrame() {
     googleAnalyticsCall();
 }
 
+function xhrGet(getUrl, onload, async) {
+    if(typeof(async) === 'undefined') async = true;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", getUrl, async);
+    xhr.onload = onload;
+    xhr.send();
+    return xhr.response;
+}
+
 function buildContentHolder() {
     jQuery('body').prepend(jQuery('<div class="content"></div>'));
 }
